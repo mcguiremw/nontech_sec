@@ -14,6 +14,7 @@ it out.  This is a small attempt at bridging that gap, just a little.</p>
 <h2>POSTS</h2>
 {% for post in site.posts %}
   <h3><a href={{ post.permalink }}>{{ post.title }}</a></h3>
+  <h6>{{ post.date | date: "%-d %B %Y" }}</h6>
   <p>{{ post.excerpt }}</p>
   <hr>
 {% endfor %}
