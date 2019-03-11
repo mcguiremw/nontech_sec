@@ -45,5 +45,41 @@ hack of 2016. (If you do some personal research on this event you will likely co
 malware to their computers that allowed the attackers greater levels of access.  This article is 
 focusing on the attack that occurred during the Spring of 2016.) 
 
-![Whois Lookup Showing Attacker Web Server](/assets/images/email_links/whois_lookup.png)
+The attackers had email addresses of potential victims and knew that they were hosted by Google.
+With this information the attackers were able to re-create the reset password dialogue screen so
+that the victim thought they would be typing their password at a valid location.  Below is an image
+of that dialogue screen, remember this is not actually a valid site, it is just made to look like
+one.
+
 ![Google Password Reset Attacker Page](/assets/images/email_links/dnc_hack.png)
+
+The attackers were able to get victim to this page by using the following URL embedded in the email.
+>http://accoounts-google.com/ServiceLoginAuth/i.jsp?continue=https://www.google.com/settings/&followup=https://www.google.com/settings/&docid=Ym9oZGFuLm9yeXNoa2V2aWNoQGdtYWlsLmNvbQ==&refer=Qm9oZGFuK09yeXNoa2V2aWNo&tel=ji8 
+
+Notice `accounts` is spelled `accoounts`, mispelling a single word with a single character is a
+common way of tricking a victim.
+
+A common tool used by security researchers is `whois`.  From the tool's manual page...
+>The whois utility looks up records in the databases maintained by several Network Information Centers (NICs).
+
+Using that tool with this example we can see that the domain with the attackers URL is no longer
+registered, most likely taken down by the attackers or authorities after the successful hack. For
+comparison I have run the tool on the valid Google URL.
+
+![Whois Lookup Showing Attacker Web Server](/assets/images/email_links/whois_lookup.png)
+
+### Staying Safe
+With the above example we can see how convincing some of these attacks become.  Often the bad actor
+will create a sense of urgency with messages like `Your account may be compromised...` which causes
+and emotional reactor in the potential victim to act quickly.  There are a few things that can help
+you stay safe in these situations.
+
+#### Steps to Avoid Becoming a Victim
+- NEVER CLICK A LINK IN AN EMAIL
+- Navigate to the site via your browser
+- So if you get a message to reset your password on Amazon, open your favorite web browser
+(Firefox, Chrome, Safari, etc) and type amazon.com in the address bar
+- From there navigate to your settings page and change your password this way
+
+Following these simple steps will keep you from being re-directed to malicious servers/sites or
+downloading malware to your phone or computer.
