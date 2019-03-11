@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>INFORMATION SECURITY FOR THE REST OF US</h1>
+
+<p>We have been forced into a world where we have no choice but to use computers and the internet for
+almost every aspect of our lives.  Unfortunately the people who are <em>smart</em> enough to make this all
+<em>work</em> have not taken the time to explain it to those who do not have thousands of hours to figure
+it out.  This is a small attempt at bridging that gap, just a little.</p>
+
+<h2>POSTS</h2>
+{% for post in site.posts %}
+  <h3><a href={{ post.permalink }}>{{ post.title }}</a></h3>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
