@@ -1,4 +1,4 @@
-# INFO-SEC FOR THE REST OF US
+# INFORMATION SECURITY FOR THE REST OF US
 
 We have been forced into a world where we have no choice but to use computers and the internet for
 almost every aspect of our lives.  Unfortunately the people who are _smart_ enough to make this all
