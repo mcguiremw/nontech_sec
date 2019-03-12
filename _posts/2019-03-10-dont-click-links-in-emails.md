@@ -67,7 +67,7 @@ you stay safe in these situations, that you are guaranteed to find yourself in a
 
 #### Steps to Avoid Becoming a Victim
 - NEVER CLICK A LINK IN AN EMAIL
-- Navigate to the site via your browser
+- Navigate to the site via your browser[^3]
 - If you get a message to reset your password on Amazon, open your favorite web browser
 (Firefox, Chrome, Safari, etc) and type amazon.com in the address bar
 - From there navigate to your settings page and change your password this way
@@ -84,3 +84,5 @@ downloading malware to your phone or computer.
 [^1]: When I say service I am talking about the protocols that are necessary for carrying certain types of information across networks. Most of these protocols that we use everyday are based on a client-server architecture. For example let's use searching for `widgets` on Google. When I am on my phone and want to find a `widget` I navigate to _google.com_ and type `widget`. In this example my phone is the _client_ and the computer Google is running on is the _server_.  This is an example of `https` or in general a web service.  There are email services, messaging services, tunnel services and thousands of others.  Splitting network traffic across _services_ allows for more efficient message passing between computers.
 
 [^2]: If you do some research on this event you will likely come across details of 2 separate attacks. The first was in the Summer of 2015 where victims clicked links and downloaded  malware to their computers that allowed the attackers greater levels of access.  This article is focusing on the attack that occurred during the Spring of 2016.
+
+[^3]: A browser is what you use to navigate the web.  The most common ones used are Google's Chrome, Mozilla's Firefox, Apple's Safari and Microsoft's Internet Explorer and Edge.
