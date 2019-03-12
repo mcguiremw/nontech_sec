@@ -72,6 +72,8 @@ you stay safe in these situations, that you are guaranteed to find yourself in a
 (Firefox, Chrome, Safari, etc) and type amazon.com in the address bar
 - From there navigate to your settings page and change your password this way
 
+- Setup Two Factor Authentication for all accounts that support this feature.  Avoid using another email account or phone number as these can be exploited easily as well.  There are apps such as Authy and Google Authenticator that are safer.  If your password is ever compromised these 2FA apps can help prevent an attacker gaining access to your accounts.
+
 - Also consider choosing an email provider that has efficient Spam filtering.
 
 Following these simple steps will keep you from being re-directed to malicious servers/sites or
