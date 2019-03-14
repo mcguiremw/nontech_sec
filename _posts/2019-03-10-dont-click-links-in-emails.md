@@ -68,6 +68,9 @@ you stay safe in these situations, that you are guaranteed to find yourself in a
 #### Steps to Avoid Becoming a Victim
 - NEVER CLICK A LINK IN AN EMAIL
 - Navigate to the site via your browser[^3]
+    - Occassionally this will be unreasonable with an email like DocuSign where the URL is extremely
+      long and privately generated from the sender.  In this case you should be able to right click
+      the link and copy to a document or text editor to verify it's validity.
 - If you get a message to reset your password on Amazon, open your favorite web browser
 (Firefox, Chrome, Safari, etc) and type amazon.com in the address bar
 - From there navigate to your settings page and change your password this way
