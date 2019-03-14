@@ -20,7 +20,7 @@ Basically this can be done by setting up an email server that allows the attacke
 fields used in the email, most importantly the `To:` and `From:` addresses.  There are open source
 products for just about every service[^1] in existence, this makes this process fairly easy for anyone capable of downloading, configuring and hosting a server.  
 
-Once the server is up and running than an individual will be targeted in a spear-phishing campaign
+Once the server is up and running an individual will be targeted in a spear-phishing campaign
 or blasted out to a large number of addresses in the general phishing attack.  From here the
 attacker needs to create a mock site that makes the victim trust they know where they have landed
 after clicking a link in the email.  Really this starts with the faked sender address and message.
