@@ -24,7 +24,7 @@ Once the server is up and running an individual will be targeted in a spear-phis
 or blasted out to a large number of addresses in the general phishing attack.  From here the
 attacker needs to create a mock site that makes the victim trust they know where they have landed
 after clicking a link in the email.  Really this starts with the faked sender address and message.
-If the victim thinks they know who sent the email and the message is convincing enough the link will
+If the victim thinks they know who sent the email and the message is convincing enough, the link will
 be clicked.  A quick search on the Internet will give many statistics of how many people fall for
 phishing attacks.
 
@@ -44,7 +44,7 @@ one.  Consider if you thought you received and email from Google would you think
 
 ![Google Password Reset Attacker Page](/assets/images/email_links/dnc_hack.png)
 
-The attackers were able to get victim to this page by using the following URL embedded in the email.
+The attackers were able to get the victim to this page by using the following URL embedded in the email.
 >http://accoounts-google.com/ServiceLoginAuth/i.jsp?continue=https://www.google.com/settings/&followup=https://www.google.com/settings/&docid=Ym9oZGFuLm9yeXNoa2V2aWNoQGdtYWlsLmNvbQ==&refer=Qm9oZGFuK09yeXNoa2V2aWNo&tel=ji8 
 
 Notice `accounts` is spelled `accoounts`, misspelling a single word with a single character is a
