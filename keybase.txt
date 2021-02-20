@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mcguiremw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.mwmcguire.com
+  * I am mcguiremw (https://keybase.io/mcguiremw) on keybase.
+  * I have a public key ASBQJvgETlkR3bDMiLR_Cz3dRt2IyRZIYvQ-KX9t9MVOAgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205026f8044e5911ddb0cc88b47f0b3ddd46dd88c9164862f43e297f6df4c54e020a",
+      "host": "keybase.io",
+      "kid": "01205026f8044e5911ddb0cc88b47f0b3ddd46dd88c9164862f43e297f6df4c54e020a",
+      "uid": "a28668821262624ad10a350ea249f919",
+      "username": "mcguiremw"
+    },
+    "merkle_root": {
+      "ctime": 1613781679,
+      "hash": "9644ee47fa8ea581e0175ab826cf539af7e0bfbe12dc638a16f90f43cc55416cfb1d10816e67f6019066b096fc19843bcf5c7d9f80a5f794d299a558ac07cef3",
+      "hash_meta": "0515ba81df79d53f98cb70b0767077676828aea1bfb72fad3583ab476cd90df9",
+      "seqno": 19168177
+    },
+    "service": {
+      "entropy": "M5p3XGgRf2PNTI88gvmAhGm5",
+      "hostname": "blog.mwmcguire.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1613781736,
+  "expire_in": 504576000,
+  "prev": "2d7be2183eb488c7b8cd8e736c61416ba9160c661cd196e4fa9d8f3d23f082cf",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUCb4BE5ZEd2wzIi0fws93UbdiMkWSGL0Pil/bfTFTgIKp3BheWxvYWTESpcCEMQgLXviGD60iMe4zY5zbGFBa6kWDGYc0Zbk+p2PPSPwgs/EIAJQmCFdrO0jxNPFBo+YQJJ2MYn69vnhoKGfAN6a7IOHAgHCo3NpZ8RAhnM0QjJmDhyXQPFtYpSEDOtz/kkTvcVNlifgEz0ijsfajUMeWkRKofpiMfgeZ/RZH44QBml02TzUqg0u8XPuDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICIamhHKkdUSo+q7sIbui4oG1kF9x8n0plHkdjx2GjLno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mcguiremw
+
+==================================================================
